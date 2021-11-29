@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8"></meta>
+        <title>css練習</title>
+    </head>
+    <style>
+        ul
+        {
+            list-style:square outside;
+        }
+        .bold
+        {
+            font-size: 30px;
+            margin-left: 20px;
+        }
+        #submit
+        {
+            transition-duration: 0.4s;
+            width: 100px;
+            height: 30px;
+            background-color: white; 
+            color: black;
+        }
+
+        #submit:hover    
+        {
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <body>
+        <ul>
+            <li class = "bold">射鵰英雄傳</li>
+            <li class = "bold">天龍八部</li>
+            <li class = "bold">倚天屠龍記</li>
+        </ul>
+        <button onclick = "location.href = './index.html';" id = "submit">前往作業1</button>
+    </body>
+</html>

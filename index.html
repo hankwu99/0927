@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8"></meta>
+        <title>css練習</title>
+    </head>
+    <style>
+        .first
+        {
+            text-shadow: 12px 8px 5px orange;
+        }
+        .second
+        {
+            text-shadow: 12px 8px 5px gray, 30px 15px 1.5px silver;
+        }
+        #submit
+        {
+            transition-duration: 0.4s;
+            width: 100px;
+            height: 30px;
+            background-color: white; 
+            color: black;
+        }
+
+        #submit:hover    
+        {
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <body>
+        <h1 class  = "first">Hi world~</h1>
+        <h1 class  = "second">Hi world~</h1>
+        <button onclick = "location.href = './index2.html';" id = "submit">前往作業2</button>
+    </body>
+</html>
